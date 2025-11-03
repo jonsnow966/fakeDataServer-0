@@ -1,8 +1,10 @@
 {
+  "name": "fake-data-server",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "json-server --watch db.json --port $PORT --no-public"
+  },
   "dependencies": {
     "json-server": "latest"
-  },
-  "scripts": {
-    "start": "json-server --watch db.json --port $PORT"
   }
 }
