@@ -2,9 +2,9 @@
   "name": "fake-data-server",
   "version": "1.0.0",
   "scripts": {
-    "start": "json-server --watch db.json --port $PORT --no-public"
+    "start": "json-server --watch db.json --port $PORT --static none"
   },
   "dependencies": {
-    "json-server": "latest"
+    "json-server": "^0.17.4"
   }
 }
